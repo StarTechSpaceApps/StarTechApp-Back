@@ -8,7 +8,7 @@
     "dev": "pnpm run \"/dev:/\"",
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "dev:node": "node --enable-source-maps --watch dist/index.js",
-    "build": "npm run dev:tsc && npm run dev:node" 
+    "build": "npm run dev" 
   },
   "keywords": [],
   "author": "StarTech",
