@@ -21,7 +21,7 @@ const uri = process.env.MONGODB_URI;
   
 app.use("/question", questionRoutes);
 app.use("/list", listRoutes)
-app.get("/", (_req, res) => {
+app.get("/", (_req: Request, res: Response) => {
   res.send("Hello, World!");
 });
 
