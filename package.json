@@ -5,11 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "dev": "pnpm run \"/dev:/\"",
-    "dev:tsc": "tsc --watch --preserveWatchOutput",
-    "dev:node": "node --enable-source-maps --watch dist/index.js",
-    "build": "npm run start"
+    "start": "tsc && node dist/index.js"
   },
   "keywords": [],
   "author": "StarTech",
