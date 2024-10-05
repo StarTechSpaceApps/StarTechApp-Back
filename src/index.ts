@@ -4,6 +4,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import questionRoutes from "./routes/questionRoutes.js";
 import listRoutes from "./routes/listRoutes.js";
+import "dotenv/config"
 
 const app = express();
 
@@ -16,13 +17,11 @@ app.use(bodyParser.urlencoded({ extended: true })); // para poder pasar el form 
 //---------- SERVER - MONGO DB ---------------------
 
 const PORT = process.env.PORT || 3001;
-const uri =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://ami:1312@cluster0.kyprtz4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
+const uri = process.env.MONGODB_URI;
+  
 app.use("/question", questionRoutes);
 app.use("/list", listRoutes)
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   res.send("Hello, World!");
 });
 

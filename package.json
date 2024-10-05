@@ -5,10 +5,11 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
+    "start": "tsc && node dist/index.js",
     "dev": "pnpm run \"/dev:/\"",
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "dev:node": "node --enable-source-maps --watch dist/index.js",
-    "build": "npm run dev" 
+    "build": "npm run dev"
   },
   "keywords": [],
   "author": "StarTech",
@@ -28,6 +29,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "eslint": "^9.11.1",
     "express": "^4.21.0",
     "mongoose": "^8.7.0",
