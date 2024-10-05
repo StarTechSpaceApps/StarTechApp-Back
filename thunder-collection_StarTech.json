@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "StarTech",
+    "collectionId": "68fea9e5-8ce0-4314-b364-09a865f1756c",
+    "dateExported": "2024-10-05T16:58:01.402Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3579e58e-4f47-45d2-938b-2b585139c38d",
+            "colId": "68fea9e5-8ce0-4314-b364-09a865f1756c",
+            "containerId": "",
+            "name": "http://localhost:3001/",
+            "url": "http://localhost:3001/question/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-05T16:57:29.302Z",
+            "modified": "2024-10-05T16:57:29.302Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"statement\": \"¿Es esta la segunda prueba?\",\n  \"correctAnswer\": {\n    \"text\": \"Si, necesitabamos una seunda pregunta\",\n    \"image\": \"https://media.istockphoto.com/id/509811410/es/foto/la-mano-haciendo-un-pulgar-arriba-gesto-votación-de-mano.jpg?s=612x612&w=0&k=20&c=2GrOBHIguc_E4wij1rF-H7aHAvn_uCONbMrHlaIqNvo=\"\n  },\n  \"wrongAnswer\": {\n    \"text\": \"No, és la primera\",\n    \"image\": \"https://images.freeimages.com/clg/images/39/391879/not-ok-mark-clip-art_f.jpg\"\n  },\n  \"explanation\": {\n    \"text\": \"Es una prueba, esto es parte de la hackathon del Nasa Space Apps Challange\",\n    \"link\": \"https://www.spaceappschallenge.org/\"\n  },\n  \"audience\": \"adult\",\n  \"topic\": \"test\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d14f511f-1522-46e8-9f53-4399766e6e5c",
+            "colId": "68fea9e5-8ce0-4314-b364-09a865f1756c",
+            "containerId": "",
+            "name": "getRandomList",
+            "url": "http://localhost:3001/list",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-10-05T16:57:37.833Z",
+            "modified": "2024-10-05T16:57:37.833Z",
+            "headers": []
+        },
+        {
+            "_id": "8b6910a0-a8bc-484a-b9bb-9b7d3a3a98c1",
+            "colId": "68fea9e5-8ce0-4314-b364-09a865f1756c",
+            "containerId": "",
+            "name": "getRandomQuestion",
+            "url": "http://localhost:3001/question/random",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-05T16:57:47.650Z",
+            "modified": "2024-10-05T16:57:47.650Z",
+            "headers": []
+        },
+        {
+            "_id": "9e9ea414-7613-4766-bd32-4d52056b1071",
+            "colId": "68fea9e5-8ce0-4314-b364-09a865f1756c",
+            "containerId": "",
+            "name": "getQuestion :id",
+            "url": "http://localhost:3001/question/67015b4825eacd3f28cf5763",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-10-05T16:57:53.452Z",
+            "modified": "2024-10-05T16:57:53.453Z",
+            "headers": []
+        }
+    ],
+    "ref": "zqAYG6QE_eNuD_D2U_gXqQD3GOf-NOHyK_HXl-gUshaxj187hdZHDf2U15vIIoEmF5n2qZA5YK-V_tlWW4K1Lw"
+}

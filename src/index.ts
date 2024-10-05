@@ -3,6 +3,7 @@ import { connectToMongoDB } from "./database/connectToMongoDB.js";
 import cors from "cors";
 import bodyParser from "body-parser";
 import questionRoutes from "./routes/questionRoutes.js";
+import listRoutes from "./routes/listRoutes.js";
 
 const app = express();
 
@@ -20,6 +21,7 @@ const uri =
   "mongodb+srv://ami:1312@cluster0.kyprtz4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 app.use("/question", questionRoutes);
+app.use("/list", listRoutes)
 app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
