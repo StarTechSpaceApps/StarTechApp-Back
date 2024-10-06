@@ -1,7 +1,4 @@
-import { model, Schema, Document } from "mongoose"
-import { IQuestion } from "./models/questionModel.js"
-
-//interface IQuestionDocument extends IQuestion, Document {}
+import { model, Schema } from "mongoose"
 
 const answerSchema = new Schema({
     text: { type: String, required: true },

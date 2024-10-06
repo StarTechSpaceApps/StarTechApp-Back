@@ -16,12 +16,12 @@ app.use(bodyParser.urlencoded({ extended: true })); // para poder pasar el form 
 
 //---------- SERVER - MONGO DB ---------------------
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const uri = process.env.MONGODB_URI;
   
 app.use("/question", questionRoutes);
 app.use("/list", listRoutes)
-app.get("/", (_req, res) => {
+app.get("/", (_req: Request, res: Response) => {
   res.send("Hello, World!");
 });
 
