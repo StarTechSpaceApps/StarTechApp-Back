@@ -6,7 +6,6 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
-    "dev": "pnpm run \"/dev:/\"",
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "dev:node": "node --enable-source-maps --watch dist/index.js",
     "build": "npm run start"
@@ -32,9 +31,7 @@
     "dotenv": "^16.4.5",
     "eslint": "^9.11.1",
     "express": "^4.21.0",
-    "heroku": "^8.7.1",
     "mongoose": "^8.7.0",
-    "pnpm": "^9.12.0",
     "prettier": "^3.3.3",
     "tsx": "^4.19.1"
   }
