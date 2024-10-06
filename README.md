@@ -1,5 +1,7 @@
 # Prova Backend Hackató Saló Ocupació
 
+<h3>Goals for Good</h3>
+
 1. Instalamos las dependencias del proyecto
 
 ```sh
@@ -43,3 +45,9 @@ src/
 └── index.ts
 
 ```
+Authors:
+- Ami Kummetz Varó
+- Albert Vilà Calaf
+- Elisenda López Vázquez
+- Michael Riebenbauer
+- Solida Var

@@ -1,7 +1,7 @@
 {
-  "name": "esbuild-node",
-  "version": "1.0.0",
-  "description": "",
+  "name": "goals-for-good",
+  "version": "0.3",
+  "description": "Our interactive quiz engages high school students in understanding environmental changes through fun and challenging questions. By exploring global environmental phenomena, players learn about sustainability and the planet’s health. It’s environmental education for all ages, with a thrilling twist!",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "build": "npm run start"
   },
   "keywords": [],
-  "author": "StarTech",
+  "author": "StarTechTeam: - Ami Kummetz Varó - Albert Vilà Calaf - Elisenda López Vázquez - Michael Riebenbauer - Solida Var",
   "license": "MIT",
   "devDependencies": {
     "@types/cors": "^2.8.17",
